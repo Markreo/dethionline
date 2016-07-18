@@ -1,5 +1,6 @@
 package com.dethionline
 
+import com.dethionline.auth.User
 import grails.plugin.springsecurity.annotation.Secured
 
 @Secured(['ROLE_SYSTEM','ROLE_USER'])

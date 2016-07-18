@@ -1,6 +1,6 @@
-import com.dethionline.Role
-import com.dethionline.User
-import com.dethionline.UserRole
+import com.dethionline.auth.Role
+import com.dethionline.auth.User
+import com.dethionline.auth.UserRole
 
 class BootStrap {
 

@@ -1,5 +1,5 @@
 2016-07-18 11:24:33,995 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.getPropertyByName(DefaultGrailsDomainClass.java:665)
 	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod$GrailsMethodExpression.setArguments(AbstractClausedStaticPersistentMethod.java:140)
 	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod.doInvokeInternal(AbstractClausedStaticPersistentMethod.java:518)
@@ -11,7 +11,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
-	at com.dethionline.User.$static_methodMissing(User.groovy)
+	at com.dethionline.auth.User.$static_methodMissing(User.groovy)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +58,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:24:33,997 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -69,7 +69,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:24:33,998 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -80,7 +80,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:24:33,998 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -91,7 +91,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:24:33,998 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -102,7 +102,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:24:33,998 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -113,7 +113,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,629 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.getPropertyByName(DefaultGrailsDomainClass.java:665)
 	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod$GrailsMethodExpression.setArguments(AbstractClausedStaticPersistentMethod.java:140)
 	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractClausedStaticPersistentMethod.doInvokeInternal(AbstractClausedStaticPersistentMethod.java:518)
@@ -125,7 +125,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
-	at com.dethionline.User.$static_methodMissing(User.groovy)
+	at com.dethionline.auth.User.$static_methodMissing(User.groovy)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -172,7 +172,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,632 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -183,7 +183,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,632 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -194,7 +194,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,632 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -205,7 +205,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,632 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -216,7 +216,7 @@ org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property foun
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:26:57,632 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.User]
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [email] for class [class com.dethionline.auth.User]
 	at org.grails.datastore.gorm.GormStaticApi.methodMissing(GormStaticApi.groovy:105)
 	at BootStrap$_closure1.doCall(BootStrap.groovy:13)
 	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
@@ -269,7 +269,7 @@ java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibrar
 java.lang.NullPointerException: Cannot get property 'instanceControllerTagLibraryApi' on null object
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,354 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:56)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:51)
@@ -389,7 +389,7 @@ Possible solutions: isCase(java.lang.Object)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,383 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at com.dethionline.BaseController$_closure1.doCall(BaseController.groovy:17)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
@@ -401,7 +401,7 @@ Possible solutions: isCase(java.lang.Object)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,437 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at com.dethionline.BaseController$_closure1.doCall(BaseController.groovy:17)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
@@ -413,7 +413,7 @@ Possible solutions: isCase(java.lang.Object)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,439 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at com.dethionline.BaseController$_closure1.doCall(BaseController.groovy:17)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
@@ -425,7 +425,7 @@ Possible solutions: isCase(java.lang.Object)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,441 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at com.dethionline.BaseController$_closure1.doCall(BaseController.groovy:17)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
@@ -437,7 +437,7 @@ Possible solutions: isCase(java.lang.Object)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2016-07-18 11:31:24,443 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingMethodException: No signature of method: com.dethionline.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
+groovy.lang.MissingMethodException: No signature of method: com.dethionline.auth.User.isAccess() is applicable for argument types: (java.lang.String) values: [/dethionline/grails/home/index.dispatch]
 Possible solutions: isCase(java.lang.Object)
 	at com.dethionline.BaseController$_closure1.doCall(BaseController.groovy:17)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
@@ -2700,3 +2700,71 @@ Caused by: java.lang.NoClassDefFoundError: asset/pipeline/CacheManager$_findCach
 	at asset.pipeline.AssetProcessorService.serveUncompiledAsset(AssetProcessorService.groovy:62)
 	at asset.pipeline.AssetsController.index(AssetsController.groovy:26)
 	... 9 more
+2016-07-18 15:05:40,285 [FileSystemWatcher: files=#207 cl=java.net.URLClassLoader@7e4d2f72] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+	at org.codehaus.groovy.grails.web.mapping.UrlMappingsHolderFactoryBean.setApplicationContext(UrlMappingsHolderFactoryBean.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:2662)
+	at groovy.lang.ExpandoMetaClass.setProperty(ExpandoMetaClass.java:1170)
+	at groovy.lang.MetaClassImpl.setProperty(MetaClassImpl.java:3702)
+	at groovy.lang.MetaClassImpl.setProperties(MetaClassImpl.java:1741)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$NoParamSite.callConstructor(ConstructorSite.java:122)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at org.codehaus.groovy.grails.plugins.web.mapping.UrlMappingsGrailsPlugin.createUrlMappingsHolder(UrlMappingsGrailsPlugin.groovy:205)
+	at org.codehaus.groovy.grails.plugins.web.mapping.UrlMappingsGrailsPlugin.this$2$createUrlMappingsHolder(UrlMappingsGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at org.codehaus.groovy.grails.plugins.web.mapping.UrlMappingsGrailsPlugin$_closure3.doCall(UrlMappingsGrailsPlugin.groovy:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-18 15:05:40,287 [FileSystemWatcher: files=#207 cl=java.net.URLClassLoader@7e4d2f72] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-18 15:05:40,287 [FileSystemWatcher: files=#207 cl=java.net.URLClassLoader@7e4d2f72] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+	at java.lang.Thread.run(Thread.java:745)
+2016-07-18 15:05:40,287 [FileSystemWatcher: files=#207 cl=java.net.URLClassLoader@7e4d2f72] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException
+	at java.lang.Thread.run(Thread.java:745)

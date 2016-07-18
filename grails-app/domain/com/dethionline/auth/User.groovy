@@ -1,4 +1,4 @@
-package com.dethionline
+package com.dethionline.auth
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString

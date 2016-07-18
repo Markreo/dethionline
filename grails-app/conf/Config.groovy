@@ -118,9 +118,9 @@ log4j.main = {
 
 
 // Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.dethionline.User'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.dethionline.UserRole'
-grails.plugin.springsecurity.authority.className = 'com.dethionline.Role'
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.dethionline.auth.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.dethionline.auth.UserRole'
+grails.plugin.springsecurity.authority.className = 'com.dethionline.auth.Role'
 grails.plugin.springsecurity.logout.postOnly = false
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/dashboard"
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [

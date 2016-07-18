@@ -1,4 +1,4 @@
-package com.dethionline
+package com.dethionline.auth
 
 import grails.gorm.DetachedCriteria
 import groovy.transform.ToString
